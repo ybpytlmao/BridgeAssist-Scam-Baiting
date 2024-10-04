@@ -1,1 +1,2 @@
-if you can read this it is working
+import ctypes
+ctypes.windll.user32.MessageBoxW(0, "Hello World!", "WOW!", 0x10 | 0x00000000)
